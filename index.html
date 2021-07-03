@@ -1,0 +1,77 @@
+
+<!DOCTYPE htmal>
+<htmal>
+	<head>
+		<meta charset="utf-8">
+		<title>Robot Arm </title>
+		
+		<link href ="styles.css" type="text/css" rel="stylesheet">
+	
+	</head>
+	
+	<body>
+	<h2 style="margin: 10px auto 10 120 ">Robot Arm Control Panael</h2>
+	<div class="slideContainer">
+	
+	<form id="myForm" action="admin.php"method="POST">
+	
+	<div class="margintext">
+	
+		<p>Motor1<span id= "M1"></span> </p>
+	
+			<input type="range" min="0" max="180" value="0" id="FirstSliderRange" class="FirstSlider" name="S1">
+			<p class="valuetext">Valiue:<span id="FirstValue"></span></p>
+		
+		
+		</br>
+		
+		<p>Motor2<span id= "M2"></span> </p>
+		
+			<input type="range" min="0" max="180" value="0" id="SecondSliderRange" class="SecondSlider" name="S2">
+			<p class="valuetext">Valiue:<span id="Secondvalue"></span></p>
+
+		
+		</br>
+		
+		<p>Motor3<span id= "M3"></span> </p>
+		
+			<input type="range" min="0" max="180" value="0" id="ThirdSliderRange" class="ThirdSlider" name="S3">
+			<p class="valuetext">Valiue:<span id="Thierdvalue"></span></p>
+		
+		
+		</br>
+		<p>Motor4<span id= "M4"></span> </p>
+		
+		
+			<input type="range" min="0" max="180" value="0" id="FourthSliderRange" class="FourthSlider" name="S4">
+			<p class="valuetext">Valiue:<span id="Fourthvalue"></span></p>
+		
+		
+		</br>
+		
+		<p>Motor5<span id= "M5"></span> </p>
+		
+			<input type="range" min="0" max="180" value="0" id="FifthSliderRange" class="FifthSlider" name="S5">
+			<p class="valuetext">Valiue:<span id="Fifthvalue"></span></p>
+		
+		
+		</br>
+		
+		<p>Motor6<span id= "M6"></span> </p>
+		
+			<input type="range" min="0" max="180" value="0" id="SixthSliderRange" class="SixthSlider" name="S6">
+			<p class="valuetext">Valiue:<span id="Sixthvalue"></span></p>
+		
+		
+		</br>
+																			<!.......Button style......>
+		<input type="submit" value = "Save and Run" name="save_and_run" style="border 1 px solid #700; padding: 9px; color:#fff; background:#700; border-radius:4px;  /*اطار البوتن*/ transition:all 0.5s; font-size: 17px; margin-left:20; margin-top:1;" >
+	
+		</div>
+		
+		<script src= "main.js"></script>
+	</body>
+
+	
+
+</htmal>
