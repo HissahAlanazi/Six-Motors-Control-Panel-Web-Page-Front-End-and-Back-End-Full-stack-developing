@@ -12,6 +12,8 @@ NOTE this work is based on Full Stack Front-End developing Here is the list of f
 4-main.js
 
 5-robotarm.sql // Database
+
 6-image 
 
-![Robot4](https://user-images.githubusercontent.com/85851678/125982019-798d9b46-94af-4d56-8ad0-6b5f2138326f.jpg)
+Interface Robot Arm Control Panel .
+![image](https://user-images.githubusercontent.com/85851678/125982346-15385613-d16c-4d94-8422-726179b00bfa.png)
