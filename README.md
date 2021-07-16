@@ -13,7 +13,7 @@ NOTE this work is based on Full Stack Front-End developing Here is the list of f
 
 5-robotarm.sql // Database
 
-6-image 
+6-Robot4.jpg 
 
 Interface Robot Arm Control Panel .
 ![image](https://user-images.githubusercontent.com/85851678/125982346-15385613-d16c-4d94-8422-726179b00bfa.png)
