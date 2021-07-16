@@ -1,3 +1,4 @@
+<html>
 <head>
 		<meta charset="utf-8">
 		<title>Robot Arm </title>
@@ -7,59 +8,52 @@
 	</head>
 	
 	<body>
-		<h2 style="margin: 10px auto 10 120 ">Robot Arm Control Panael</h2>
+		<h1 style="margin: 10px auto 10 400 ; background-color:#677b7b47; color:white; text-align:center; ">Robot Arm Control Panael</h1>
 		<div class="slideContainer">
 	
 	<form action="index.php"method="post">
 	
-	<p>Motor1<span id= "M1"></span> </p>
 	
+			<p>Motor1<span id= "M1"></span> </p>
 			<input type="range" min="0" max="180" value="0" id="FirstSliderRange" class="FirstSlider" name="S1">
 			<p class="valuetext">Valiue:<span id="FirstValue"></span></p>
-		
+	
 		
 		</br>
 		
-		<p>Motor2<span id= "M2"></span> </p>
-		
+			<p>Motor2<span id= "M2"></span> </p>
 			<input type="range" min="0" max="180" value="0" id="SecondSliderRange" class="SecondSlider" name="S2">
 			<p class="valuetext">Valiue:<span id="Secondvalue"></span></p>
 
 		
 		</br>
 		
-		<p>Motor3<span id= "M3"></span> </p>
-		
+			<p>Motor3<span id= "M3"></span> </p>
 			<input type="range" min="0" max="180" value="0" id="ThirdSliderRange" class="ThirdSlider" name="S3">
 			<p class="valuetext">Valiue:<span id="Thierdvalue"></span></p>
 		
 		
 		</br>
-		<p>Motor4<span id= "M4"></span> </p>
-		
-		
+			<p>Motor4<span id= "M4"></span> </p>
 			<input type="range" min="0" max="180" value="0" id="FourthSliderRange" class="FourthSlider" name="S4">
 			<p class="valuetext">Valiue:<span id="Fourthvalue"></span></p>
 		
 		
 		</br>
 		
-		<p>Motor5<span id= "M5"></span> </p>
-		
+			<p>Motor5<span id= "M5"></span> </p>
 			<input type="range" min="0" max="180" value="0" id="FifthSliderRange" class="FifthSlider" name="S5">
 			<p class="valuetext">Valiue:<span id="Fifthvalue"></span></p>
 		
 		
 		</br>
 		
-		<p>Motor6<span id= "M6"></span> </p>
-		
+			<p>Motor6<span id= "M6"></span> </p>
 			<input type="range" min="0" max="180" value="0" id="SixthSliderRange" class="SixthSlider" name="S6">
 			<p class="valuetext">Valiue:<span id="Sixthvalue"></span></p>
 		
 		</br>
-		<input type="submit" value = "Save and Run" name="save_and_run" style="border 1 px solid #700; padding: 9px; color:#fff; background:#700;
-		border-radius:4px;  /*butten frame */ transition:all 0.5s; font-size: 17px; margin-left:20; margin-top:1;" >
+		<input type="submit" value = "Save and Run" name="save_and_run" style="font-size: 23px; background:  rgb(159 ,189 ,214); border-radius: 60px; color:white;" >
 		
 		</div>
 </form>
