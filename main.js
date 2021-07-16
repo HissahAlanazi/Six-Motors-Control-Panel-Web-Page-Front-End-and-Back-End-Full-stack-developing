@@ -8,7 +8,7 @@ var Firstslider= document.getElementById("FirstSliderRange");
 
 	Firstslider.addEventListener("mousemove",function(){
 		var x =Firstslider.value;
-		var color ='linear-gradient(90deg,rgb(136,0,0)'+ x +'%,rgb(214,214,214)'+ x +'%)';
+		var color ='linear-gradient(90deg,rgb(159 ,189 ,214)'+ x +'%,rgb(214,214,214)'+ x +'%)';
 		Firstslider.style.background = color;
 	})
 
@@ -22,7 +22,7 @@ var Firstslider= document.getElementById("FirstSliderRange");
 
 		SecondSlider.addEventListener("mousemove",function(){
 			var x =SecondSlider.value;
-			var color ='linear-gradient(90deg,rgb(136,0,0)'+ x +'%,rgb(214,214,214)'+ x +'%)';
+			var color ='linear-gradient(90deg,rgb(159 ,189 ,214)'+ x +'%,rgb(214,214,214)'+ x +'%)';
 			SecondSlider.style.background = color;
 		})
 
@@ -38,7 +38,7 @@ var Firstslider= document.getElementById("FirstSliderRange");
 
 			ThirdSlider.addEventListener("mousemove",function(){
 				var x =ThirdSlider.value;
-				var color ='linear-gradient(90deg,rgb(136,0,0)'+ x +'%,rgb(214,214,214)'+ x +'%)';
+				var color ='linear-gradient(90deg,rgb(159 ,189 ,214)'+ x +'%,rgb(214,214,214)'+ x +'%)';
 				ThirdSlider.style.background = color;
 			})
 
@@ -52,7 +52,7 @@ var Firstslider= document.getElementById("FirstSliderRange");
 
 				FourthSlider.addEventListener("mousemove",function(){
 				var x =FourthSlider.value;
-				var color ='linear-gradient(90deg,rgb(136,0,0)'+ x +'%,rgb(214,214,214)'+ x +'%)';
+				var color ='linear-gradient(90deg,rgb(159 ,189 ,214)'+ x +'%,rgb(214,214,214)'+ x +'%)';
 				FourthSlider.style.background = color;
 				})
 
@@ -66,7 +66,7 @@ var Firstslider= document.getElementById("FirstSliderRange");
 
 					FifthSlider.addEventListener("mousemove",function(){
 						var x =FifthSlider.value;
-						var color ='linear-gradient(90deg,rgb(136,0,0)'+ x +'%,rgb(214,214,214)'+ x +'%)';
+						var color ='linear-gradient(90deg,rgb(159 ,189 ,214)'+ x +'%,rgb(214,214,214)'+ x +'%)';
 						FifthSlider.style.background = color;
 					})
 
@@ -80,7 +80,7 @@ var Firstslider= document.getElementById("FirstSliderRange");
 
 						SixthSlider.addEventListener("mousemove",function(){
 							var x =SixthSlider.value;
-							var color ='linear-gradient(90deg,rgb(136,0,0)'+ x +'%,rgb(214,214,214)'+ x +'%)';
+							var color ='linear-gradient(90deg,rgb(159 ,189 ,214)'+ x +'%,rgb(214,214,214)'+ x +'%)';
 							SixthSlider.style.background = color;
 						})
 
